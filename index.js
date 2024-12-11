@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Enable CORS for all routes
+const cors = require('cors');
 app.use(cors());
 
 // Add Content-Security-Policy header
